@@ -23,8 +23,9 @@ controls:
   macos_updates:
     deadline: "2025-07-01"
     minimum_version: "15.4.0"
-    - path: ../lib/macos/scripts/remove-zoom-artifacts.script.sh
-    - path: ../lib/macos/scripts/set-timezone.script.sh
+  scripts:  
+   - path: ../lib/macos/scripts/remove-zoom-artifacts.script.sh
+   - path: ../lib/macos/scripts/set-timezone.script.sh
 team_settings:
   secrets: 
     - secret: "$FLEET_NEW_HIRES_ENROLL_SECRET
