@@ -27,7 +27,7 @@ controls:
     - path: ../lib/macos/scripts/set-timezone.script.sh
 team_settings:
   secrets: 
-    - secret: "$FLEET_NEW_HIRES-ENROLL_SECRET
+    - secret: "$FLEET_NEW_HIRES_ENROLL_SECRET
   features:
     enable_host_users: true
     enable_software_inventory: true
