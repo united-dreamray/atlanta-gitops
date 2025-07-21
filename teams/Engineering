@@ -24,6 +24,12 @@ controls:
     - path: ../lib/macos/scripts/set-wallpaper.ps1
  enable_disk_encryption: true
 team_settings:
+  webhook_settings:
+   failing_policies_webhook:
+    enable_failing_policies_webhook: true
+    destination_url: https://example.org/webhook_handler
+    host_batch_size: 0
+    policy_ids:
   secrets: 
     - secret: "$FLEET_ENGINEERING_ENROLL_SECRET
   features:
