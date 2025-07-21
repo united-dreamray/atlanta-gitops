@@ -1,0 +1,5 @@
+zoom.yml:
+  url: https://zoom.us/client/latest/ZoomInstallerIT.pkg
+  self_service: true
+  post_install_script:
+    path: ../lib/macos/scripts/zoom-config.sh
