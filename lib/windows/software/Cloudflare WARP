@@ -1,0 +1,5 @@
+cloudflare-warp.yml:
+  url: https://downloads.cloudflareclient.com/v1/download/windows/version/2025.2.664.0
+  self_service: true
+  post_install_script:
+    path: ../lib/windows/scripts/warp-config.sh
